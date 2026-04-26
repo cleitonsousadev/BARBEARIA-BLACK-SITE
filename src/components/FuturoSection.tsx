@@ -7,10 +7,10 @@ export default function FuturoSection() {
     <section id="futuro" className="py-32 bg-zinc-900 px-6 overflow-hidden relative">
       <div className="absolute left-0 bottom-0 w-full h-1 bg-gradient-to-r from-transparent via-gold/50 to-transparent opacity-30" />
       <div className="max-w-7xl mx-auto text-center">
-        <SectionTitle subtitle="Novidades">Futuros Trabalhos</SectionTitle>
+        <SectionTitle subtitle="Em Breve">O Que Vem por Aí</SectionTitle>
         <div className="max-w-3xl mx-auto">
-          <p className="text-zinc-400 text-lg mb-12">
-            Estamos sempre evoluindo para trazer o que há de melhor no mundo da barbearia. Em breve, expandiremos nossos serviços para incluir:
+          <p className="text-zinc-400 text-lg mb-12 leading-relaxed">
+            A Barbearia Black não para de crescer. Estamos investindo em novas técnicas e serviços para elevar ainda mais a sua experiência. Em breve, você poderá contar com:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {FUTURE_WORKS.map((item, i) => (

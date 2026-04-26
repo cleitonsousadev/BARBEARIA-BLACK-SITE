@@ -89,15 +89,15 @@ export interface FutureWork {
 export const FUTURE_WORKS: FutureWork[] = [
   {
     title: "Alisamento",
-    desc: "Técnicas modernas para controle e estilo.",
+    desc: "Técnicas modernas de alisamento masculino para um visual sempre alinhado, com resultados naturais e duradouros.",
   },
   {
     title: "Tintura",
-    desc: "Renovação e cobertura com naturalidade.",
+    desc: "Coloração profissional para renovar o visual ou cobrir brancos com acabamento natural e sofisticado.",
   },
   {
     title: "Luzes",
-    desc: "Destaque e contraste para um visual único.",
+    desc: "Mechas e luzes estrategicamente aplicadas para criar profundidade, contraste e um estilo verdadeiramente único.",
   },
 ];
 
