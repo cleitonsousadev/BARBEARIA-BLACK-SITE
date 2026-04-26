@@ -42,6 +42,21 @@ export default function HeroSection() {
               Instagram
             </a>
           </div>
+
+          <div className="mt-10 inline-flex flex-col items-center gap-2 px-8 py-4 border border-gold/30 bg-gold/5 rounded-sm">
+            <span className="text-[10px] tracking-ultra text-gold font-bold">HORÁRIO DE FUNCIONAMENTO</span>
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 text-sm font-semibold text-white">
+              <span className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
+                Ter – Sex: 17h às 20h
+              </span>
+              <span className="flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
+                Sábado: 08h às 20h
+              </span>
+            </div>
+            <span className="text-xs text-zinc-500">Domingo e Segunda: Fechado</span>
+          </div>
         </motion.div>
       </div>
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-zinc-500/30">

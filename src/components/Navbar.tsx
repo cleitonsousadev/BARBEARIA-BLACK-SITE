@@ -35,15 +35,21 @@ export default function Navbar() {
             </a>
           ))}
         </div>
-        <a
-          href={whatsappUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-gold hover:bg-gold-dark text-black px-6 py-2 rounded-sm text-[11px] font-black tracking-ultra transition-all shadow-[0_4px_20px_-8px_rgba(197,160,89,0.5)]"
-          aria-label="Agendar horário pelo WhatsApp"
-        >
-          Agendar
-        </a>
+        <div className="flex items-center gap-4">
+          <div className="hidden md:flex flex-col items-end text-right">
+            <span className="text-[9px] tracking-ultra text-zinc-500 font-bold">FUNCIONAMENTO</span>
+            <span className="text-[11px] font-bold text-white">Ter-Sex: 17h-20h | Sáb: 08h-20h</span>
+          </div>
+          <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gold hover:bg-gold-dark text-black px-8 py-3 rounded-sm text-sm font-black tracking-ultra transition-all shadow-[0_4px_20px_-8px_rgba(197,160,89,0.5)] hover:shadow-[0_6px_30px_-8px_rgba(197,160,89,0.7)] hover:scale-105"
+            aria-label="Agendar horário pelo WhatsApp"
+          >
+            AGENDAR
+          </a>
+        </div>
       </div>
     </nav>
   );
