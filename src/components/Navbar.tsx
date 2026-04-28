@@ -9,7 +9,7 @@ export default function Navbar() {
     { href: "#perfil", label: "Perfil" },
     { href: "#espaco", label: "Espaço" },
     { href: "#vendas", label: "Produtos" },
-    { href: "#futuro", label: "Futuros" },
+    { href: "#beneficios", label: "Benefícios" },
     { href: "#clientes", label: "Clientes" },
     { href: "#servicos", label: "Serviços" },
     { href: "#contato", label: "Contato" },
@@ -38,14 +38,14 @@ export default function Navbar() {
         </div>
         <div className="flex items-center gap-5">
           <div className="hidden md:flex flex-col items-end text-right">
-            <span className="text-[10px] tracking-ultra text-gold font-bold flex items-center gap-1.5 mb-0.5">
-              <Clock className="w-3 h-3" />
-              FUNCIONAMENTO
+            <span className="text-[10px] tracking-ultra text-gold font-bold flex items-center gap-1.5 mb-0.5 whitespace-nowrap">
+              <Clock className="w-3 h-3 flex-shrink-0" />
+              HORÁRIOS
             </span>
-            <span className="text-xs font-bold text-white">Ter–Sex: 17h–20h | Sáb: 08h–20h</span>
-            <span className="text-[10px] text-zinc-500 flex items-center gap-1 mt-0.5">
-              <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
-              Domingo e Segunda: Fechado
+            <span className="text-xs font-bold text-white whitespace-nowrap">Seg–Sex: 16:30–19:30 | Sáb: 08:30–19:30</span>
+            <span className="text-[10px] text-zinc-500 flex items-center gap-1 mt-0.5 whitespace-nowrap">
+              <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse flex-shrink-0" />
+              Dom e Seg: Fechado
             </span>
           </div>
           <a

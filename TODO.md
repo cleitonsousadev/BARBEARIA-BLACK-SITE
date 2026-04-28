@@ -1,12 +1,9 @@
-# Plano de Edição - Barbearia Black
+# TODO - Alterações Barbearia Black
 
-- [x] Analisar arquivos relevantes
-- [x] Criar plano de edição
-- [x] Aprovação do usuário
-- [x] Editar `src/components/Navbar.tsx` (aumentar botão AGENDAR, horários mais visíveis)
-- [x] Editar `src/components/HeroSection.tsx` (horários/dias mais visíveis)
-- [x] Editar `src/components/FuturoSection.tsx` (melhorar textos)
-- [x] Editar `src/constants.ts` (melhorar descrições dos futuros trabalhos)
-- [x] Revisar e finalizar
-
+- [x] 1. Atualizar Navbar.tsx - horários e menu
+- [x] 2. Atualizar App.tsx - footer horários e substituir FuturoSection
+- [x] 3. Atualizar QuoteSection.tsx - nova frase do CEO
+- [x] 4. Atualizar constants.ts - produtos e remover FUTURE_WORKS
+- [x] 5. Criar BeneficiosSection.tsx - nova seção
+- [x] 6. Remover FuturoSection.tsx
 

@@ -55,18 +55,13 @@ export interface Product {
 export const PRODUCTS: Product[] = [
   {
     src: "/imagens/vendas-1.jpeg",
-    name: "Pomada Modeladora",
-    desc: "Fixação firme e acabamento natural.",
+    name: "Balm para Barba",
+    desc: "Hidratação profunda e modelagem para sua barba.",
   },
   {
     src: "/imagens/vendas-2.jpeg",
     name: "Óleo para Barba",
     desc: "Hidratação e brilho para sua barba.",
-  },
-  {
-    src: "/imagens/vendas-3.jpeg",
-    name: "Cera Capilar",
-    desc: "Modelagem com efeito seco e duradouro.",
   },
 ];
 
@@ -81,25 +76,7 @@ export const CLIENTS: Client[] = [
   { src: "/imagens/cliente-3.jpg", name: "Cliente 3" },
 ];
 
-export interface FutureWork {
-  title: string;
-  desc: string;
-}
 
-export const FUTURE_WORKS: FutureWork[] = [
-  {
-    title: "Alisamento",
-    desc: "Técnicas modernas de alisamento masculino para um visual sempre alinhado, com resultados naturais e duradouros.",
-  },
-  {
-    title: "Tintura",
-    desc: "Coloração profissional para renovar o visual ou cobrir brancos com acabamento natural e sofisticado.",
-  },
-  {
-    title: "Luzes",
-    desc: "Mechas e luzes estrategicamente aplicadas para criar profundidade, contraste e um estilo verdadeiramente único.",
-  },
-];
 
 export interface SpaceFeature {
   text: string;

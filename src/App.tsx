@@ -13,7 +13,7 @@ import QuoteSection from "./components/QuoteSection";
 import ServicesSection from "./components/ServicesSection";
 import EspacoSection from "./components/EspacoSection";
 import VendasSection from "./components/VendasSection";
-import FuturoSection from "./components/FuturoSection";
+import BeneficiosSection from "./components/BeneficiosSection";
 import ClientesSection from "./components/ClientesSection";
 import CTASection from "./components/CTASection";
 
@@ -29,7 +29,7 @@ export default function App() {
       <ServicesSection />
       <EspacoSection />
       <VendasSection />
-      <FuturoSection />
+      <BeneficiosSection />
       <ClientesSection />
       <CTASection />
 
@@ -81,8 +81,8 @@ export default function App() {
           <div>
             <h4 className="text-[10px] tracking-ultra text-zinc-500 font-bold mb-8">Schedule</h4>
             <div className="text-white text-sm space-y-3 font-medium">
-              <p className="flex justify-between border-b border-white/5 pb-2"><span>Ter - Sex:</span> <span className="opacity-60">17h às 20h</span></p>
-              <p className="flex justify-between border-b border-white/5 pb-2"><span>Sábado:</span> <span className="opacity-60">08h às 20h</span></p>
+              <p className="flex justify-between border-b border-white/5 pb-2"><span>Seg - Sex:</span> <span className="opacity-60">16:30 às 19:30</span></p>
+              <p className="flex justify-between border-b border-white/5 pb-2"><span>Sábado:</span> <span className="opacity-60">08:30 às 19:30</span></p>
               <p className="flex justify-between text-zinc-700 italic"><span>Dom e Seg:</span> <span>Fechado</span></p>
             </div>
           </div>

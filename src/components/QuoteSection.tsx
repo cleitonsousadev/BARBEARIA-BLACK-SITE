@@ -10,9 +10,9 @@ export default function QuoteSection() {
           viewport={{ once: true }}
         >
           <p className="text-gold font-serif italic text-3xl md:text-5xl leading-tight mb-6">
-            "É no detalhe que o respeito se impõe."
+            "A terra dará o seu fruto; e Deus, o nosso Deus, nos abençoará."
           </p>
-          <p className="text-zinc-500 font-black tracking-ultra text-sm">— LEANDRO MORAIS - CEO</p>
+          <p className="text-zinc-500 font-black tracking-ultra text-sm">— SALMO 67:6</p>
         </motion.div>
       </div>
     </section>
