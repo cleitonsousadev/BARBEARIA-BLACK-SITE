@@ -30,7 +30,24 @@ export default function HeroSection() {
           <p className="text-lg md:text-xl text-zinc-400 font-light max-w-xl mx-auto mb-12 leading-relaxed">
             {COMPANY_INFO.tagline}
           </p>
-          <div className="flex flex-col sm:flex-row gap-6 justify-center">
+          <div className="mt-6 inline-flex flex-col items-center gap-3 px-10 py-5 border border-gold/50 bg-gold/10 rounded-sm backdrop-blur-sm">
+            <span className="text-xs tracking-ultra text-gold font-bold flex items-center gap-2">
+              <Clock className="w-4 h-4" />
+              HORÁRIOS DISPONÍVEIS PARA AGENDAMENTO
+            </span>
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-10 text-base font-bold text-white">
+              <span className="flex items-center gap-2.5">
+                <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+                Segunda a Sexta: 16:30 às 19:30
+              </span>
+              <span className="flex items-center gap-2.5">
+                <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+                Sábado: 08:30 às 19:30
+              </span>
+            </div>
+          </div>
+
+          <div className="flex flex-col sm:flex-row gap-6 justify-center mt-10">
             <a
               href={COMPANY_INFO.instagramUrl}
               target="_blank"
@@ -41,24 +58,6 @@ export default function HeroSection() {
               <Instagram className="h-5 w-5 opacity-60" />
               Instagram
             </a>
-          </div>
-
-          <div className="mt-10 inline-flex flex-col items-center gap-3 px-10 py-5 border border-gold/50 bg-gold/10 rounded-sm backdrop-blur-sm">
-            <span className="text-xs tracking-ultra text-gold font-bold flex items-center gap-2">
-              <Clock className="w-4 h-4" />
-              HORÁRIO DE FUNCIONAMENTO
-            </span>
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-10 text-base font-bold text-white">
-              <span className="flex items-center gap-2.5">
-                <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-                Terça a Sexta: 17h às 20h
-              </span>
-              <span className="flex items-center gap-2.5">
-                <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-                Sábado: 08h às 20h
-              </span>
-            </div>
-            <span className="text-sm text-zinc-400 font-medium">Domingo e Segunda: Fechado</span>
           </div>
         </motion.div>
       </div>

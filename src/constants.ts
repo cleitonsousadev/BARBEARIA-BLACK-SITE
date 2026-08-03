@@ -5,7 +5,7 @@ export const COMPANY_INFO = {
   phone: "(31) 99659-9824",
   phoneRaw: "5531996599824",
   instagram: "@barbeariablack",
-  instagramUrl: "https://www.instagram.com/barbeariablack/",
+  instagramUrl: "https://www.instagram.com/barbeariaablack/",
   whatsappUrl:
     "https://wa.me/5531996599824?text=Olá! Gostaria de agendar um horário na Barbearia Black.",
   founded: "Julho de 2024",
